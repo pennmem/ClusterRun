@@ -4,6 +4,8 @@
 # providing the ability to quickly switch between SGE and slurm.
 #
 # Example:
+#   from ClusterRun import *
+#
 #   settings_file = 'my_analysis.pkl'
 #   settings = Settings()
 #   settings.scheduler = 'slurm'  # 'slurm' or 'SGE'
